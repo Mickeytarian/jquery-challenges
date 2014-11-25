@@ -51,6 +51,17 @@ a:hover {
 }
 
 /* NAV */
+@media(min-width: 480px){
+  buton{display:none;}
+}
+
+@media(max-width:480px){
+  .nav li{
+    display: block;
+  }
+}
+
+.nav-main{ display:none;}
 
 .nav {
   margin: 0;
@@ -72,11 +83,6 @@ a:hover {
   display: block;
 }
 
-@media (max-width: 480px){
-  .nav li {
-    display: block;
-  }
-}
 
 /* PANELS */
 
