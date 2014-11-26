@@ -5,3 +5,8 @@ $("#btn-menu").click(function{
 
 //panels
 $(".panel-content").hide();
+
+$(".panel-title").click(function(){
+	//$(".panel-content").slideToggle();
+	$(this).next().slideToggle();
+});
